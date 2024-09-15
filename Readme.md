@@ -12,16 +12,14 @@ This project provides a script that processes essays in `.docx` format, generate
 ## Requirements
 
 - Python 3.7+
-- `gepetto` package (assumed to be installed)
-- `.env` file containing API credentials for the AI assistant
 
 ## Installation
 
 Clone the repository and set up a virtual environment:
 
 ```bash
-git clone <repository_url>
-cd <repository_directory>
+git clone https://github.com/ohnotnow/essay_feedback
+cd essay_feedback
 python3 -m venv venv
 source venv/bin/activate   # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
